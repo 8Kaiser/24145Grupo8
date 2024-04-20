@@ -1,0 +1,113 @@
+
+
+
+.container {
+    background:green;
+    display: flex;
+    height: 60px;
+    flex-wrap: nowrap;/* Comportamiento por defecto: nowrap */
+    flex-direction: row;
+    align-content: space-between; 
+    gap: 10px;
+    padding: 20px;
+    place-content: flex-start flex-end;
+    
+    }
+
+    
+.item {
+        background: red;
+        width: 50px;
+        height: 50px;
+        color: white;
+        font-size: 5rem;
+        
+              
+        }
+
+body, header, main, footer{
+    /*border: 3px red solid;*/
+    min-height: 50px;
+    margin: 0.8rem;
+
+}
+
+body{
+    background-color: rgb(240, 244, 245);
+   
+}
+header{
+    background: #fff;
+    box-shadow: 0 0 0.5rem rgb(83 78 76/ 50%);
+
+}
+
+.header-logo{
+    width: 20px;
+    right: auto;
+    display: inline-block;
+}
+
+footer{
+    background: rgb(255,255,255);
+}
+
+main{
+    min-height: 200px;
+    overflow: auto;
+    background-color: white;
+}
+
+nav{
+    /*border: 3px blueviolet solid;*/
+    min-height: 50px;
+    margin: 0.8rem;
+}
+main>div {
+    /*border: 2px blue solid;*/
+    min-height: 180px;
+    margin: 0.5rem;
+    height: auto;
+    float: left;
+    width: 65%;
+}
+
+main>aside {
+    /*border: 2px blue solid;*/
+    min-height: 180px;
+    min-width: 25%;
+    margin: 0.5rem;
+    float: left;
+    width: auto;
+}
+
+.secciones  {
+    /*border: 2px solid green;*/
+    min-height: 10px;
+    margin: 0.5rem;
+    padding: 10px;
+}
+
+.secciones article{
+   /* border: 2px purple solid;*/
+    margin: 0.5 rem;
+    margin-top: 10px;
+    padding: 5px;
+ 
+}
+
+#gif-ppal {
+    width: auto;
+}
+
+.header-menubar ul{
+    list-style:none ;
+}
+
+.header-menubar li {
+    float: left;
+    font-weight:700 ;
+    text-align: center;
+    padding: 0.5rem;
+
+}
