@@ -1,0 +1,11 @@
+* git log (Da un registro de los commits realizados) 
+
+Hacer un commit 
+git add . 
+git commit -m "Mensaje"
+
+Para ver las Ramas existentes 
+git branch
+
+Crear branch 
+git branch NuevaRama
